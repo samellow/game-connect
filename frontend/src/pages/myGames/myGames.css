@@ -1,0 +1,13 @@
+.my-games{
+    display: flex;
+}
+
+.my-games-heading h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF8A71;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+}

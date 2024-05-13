@@ -1,0 +1,67 @@
+.games-record-page{
+    display: flex;
+}
+
+.games-record-form{
+    text-align: center;
+    height: 100vh;
+    margin-left: 450px;
+}
+.games-record-form form{
+    text-align: center;
+}
+.form-header{
+    color: white;
+  
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 80px;
+    
+}
+.drop-down-menus{
+    display: flex;
+    flex-direction: column;
+
+}
+.select-dropdown {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:40px ;
+    padding-right: 40px;
+    background-color:#031B34 ;
+
+}
+
+.score-input {
+    background-color:#031B34 ;
+    padding: 20px 40px;
+
+}
+.score-input::placeholder{
+    font-size: 16px;
+    text-align: center;
+}
+
+.games-record-btn{
+    cursor: pointer;
+  
+    border: none;
+    border-radius: 8px;
+  
+    /* box-shadow: 2px 2px 7px #38d39f70; */
+  
+    background: #FF4820;
+    color: rgba(255, 255, 255, 0.8);
+  
+    width: 100px;
+  
+    transition: all 1s;
+}

@@ -1,0 +1,99 @@
+.create-tournament{
+    display: flex;
+}
+
+.create-tournament-content {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: start;
+}
+.tournament-specifics {
+    margin-right: 60px ;
+    max-height: 100vh;
+}
+
+
+.create-header {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 30px;
+    color: #FF8A71;
+    font-style: italic;
+}
+
+.create-participants {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    color: #FF8A71;
+    margin-bottom: 30px;
+}
+
+.participants-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 250px;
+}
+
+.each-participant {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 25px;
+}
+
+.subtitle-player{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF8A71;
+
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.fixture-players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fixtures-heading {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 30px;
+    color: #FF8A71;
+    font-style: italic;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    font-size: 1rem;
+    margin-top: 20px;
+    
+}
+
+.pagination span {
+    display: block;
+    margin: auto;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tournament-created {
+    border-bottom: none;
+}
+
+.player-score {
+    background: none;
+    border-bottom: solid 1px gray;
+}

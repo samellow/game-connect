@@ -1,0 +1,23 @@
+.tournaments {
+    display: flex;
+}
+.tournament-content {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.tournament-about {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #FF8A71;
+    margin-bottom: 30px;
+}
+
+.tournament-filter {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

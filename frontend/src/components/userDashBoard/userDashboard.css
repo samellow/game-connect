@@ -1,0 +1,155 @@
+ul{
+    list-style: none;
+}
+.container-user{
+color: #ffff;
+list-style: none;
+flex: 1;
+width: calc(100%-60px);
+height: 100vh;
+left: 60px;
+transition: all 0.5s ease;
+
+}
+
+.user{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.user-auth{
+    color: #FF8A71;
+    font-weight: 600;
+}
+.stats-section{
+    display: flex;
+    align-items: center;
+}
+.top-gamer{
+    position: relative;
+    width: 510px;
+    background-color: black;
+    height: 400px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+}
+.top-gamer-header{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 40px;
+}
+.top-gamer-user-games{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.top-gamer-user-games .username{
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    color: #FF8A71;
+    margin-right: 15px;
+
+
+}
+
+.top-gamer-user-games .games{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    z-index: 100;
+
+}
+
+ 
+
+
+.top-gamer-stats p{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+
+}
+.top-player-points{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #FF8A71;
+    margin-left: 10px;
+
+}
+.top-gamer-controller img{
+    height: 300px;
+}
+
+.top-gamer-controller {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.competitive-overview{
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+    margin-left: 20px;
+    height: 400px;
+    width: 510px;
+    padding: 20px;
+}
+
+.overview-header p {
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+.gamer-stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+
+.progress-radial {
+    font-style: italic;
+    color: #FF8A71;
+}
+.wins{
+border-left-color: #03DFED;
+border-left-width: 5px;
+border-left-style: solid;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 40px;
+}
+
+.losses {
+    border-left-style: solid;
+    border-left-color: red;
+    border-left-width: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+
+}
+.additional-stat p{
+    border-left-color: #03DFED;
+    border-left-width: 5px;
+    border-left-style: solid;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 50px;
+    padding-left: 10px;
+}

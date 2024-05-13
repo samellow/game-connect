@@ -1,0 +1,14 @@
+.ranking {
+    display: flex;
+}
+
+.ranking-heading h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #FF8A71;
+    font-style: italic;
+}
